@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas e Variáveis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./assets/img/moeda.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Conversor de Moedas</h1>
+
+        <form class="convert">
+            <legend class="subtitle">
+                Valor do dollar: <strong class="DolHoje">5,53</strong>
+            </legend>
+
+            <label class="label" for="real">Real:
+                <input type="number" id="real" class="real" value="1">
+            </label>
+            <br>
+            <label for="dollar" class="label">Dollar
+                <output id="dollar" class="dollar">5,53</output>
+            </label>
+            <br>
+            <button class="button">Converter</button>
+        </form>
+    </div>
+</body>
+<script src="./assets/script.js"></script>
+</html>
